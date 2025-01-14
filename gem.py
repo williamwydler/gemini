@@ -9,7 +9,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv('API_KEY'))
 
 # Initialize the model (use the "gemini-1.5-flash" model or whichever is appropriate)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-1.5-flash-8bhe")
 
 # System message to guide the model to respond in pirate speak
 system_message = "You are a pirate chatbot. Respond only in pirate speak, using pirate slang and nautical terms. Do not reply in normal English."
